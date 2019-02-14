@@ -1,3 +1,9 @@
+# Fork info
+
+This fork fixes most compatibility issues when building release version of your app. For a while React Native no longer
+hardcode `compileSdkVersion` but makes it available via variables. This fork uses that variables instead of hardcoding.
+
+Some unneeded stuff from `build.gradle` is also removed at all.
 
 # react-native-bluetooth-status
 
